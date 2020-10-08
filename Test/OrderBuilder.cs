@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Core.Model;
 
 namespace Test
@@ -10,6 +11,7 @@ namespace Test
         private OrderBuilder(Order order)
         {
             this.order = order;
+            this.order.OrderDetails = new List<OrderDetail>();
         }
 
         public static OrderBuilder Create()

@@ -11,7 +11,12 @@ namespace Core.Service
         }
         public void CalculateOrderTotal(ref Order order)
         {
-            order.TotalAmount = decimal.Round(order.OrderDetails.Sum(a => a.UnitPrice * a.Quantity), 2);
+            // OrderDetail ekleme aninda hesaplatmak daha dogru geldi sonradan.
+            // order.TotalAmount = decimal.Round(order.OrderDetails.Sum(a => a.UnitPrice * a.Quantity), 2);
+            order.TotalDiscount = order.OrderDetails.Sum(a => a.DiscountAmount);
+            order.TotalAmount = order.OrderDetails.Sum(a => a.TotalAmount - a.DiscountAmount);
+            order.TaxAmount = order.OrderDetails.Sum(a => a.TaxAmount);
+            order.GrossAmount = order.TotalAmount - order.TaxAmount;
         }
     }
 }

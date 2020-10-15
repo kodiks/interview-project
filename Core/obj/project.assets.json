@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "Aa23dBsgX4Haao7unCMa2u5FMGV5mkWNK99JkkGS+tAioLl/kexzoP/49/7py9phAWtYOt00odA+5KJovq8wTw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -179,28 +179,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/sbolum/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\ademg\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sbolum/projects/OrderCalculator/Core/Core.csproj",
+      "projectUniqueName": "C:\\Users\\ademg\\interview-project\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "/Users/sbolum/projects/OrderCalculator/Core/Core.csproj",
-      "packagesPath": "/Users/sbolum/.nuget/packages/",
-      "outputPath": "/Users/sbolum/projects/OrderCalculator/Core/obj/",
+      "projectPath": "C:\\Users\\ademg\\interview-project\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\ademg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ademg\\interview-project\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/sbolum/.config/NuGet/NuGet.Config"
+        "C:\\Users\\ademg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -234,7 +236,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

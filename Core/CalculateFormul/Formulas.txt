@@ -1,0 +1,8 @@
+﻿
+1) Discount_Amount => (QuantityPrice * UnitPrice) * (DiscountRate / 100)
+
+2) Total_Amaount =>   (Quantity * UnitPrice) - DiscountAmount 
+
+3) Tax_Amaount =>     TotalAmount - (TotalAmaount / (TaxRate / 100))
+
+4) Gross_Total =>     TotalAmaount - TaxAmount

@@ -702,35 +702,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/sbolum/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\ademg\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sbolum/projects/OrderCalculator/OrderCalculator/OrderCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\ademg\\interview-project\\OrderCalculator\\OrderCalculator.csproj",
       "projectName": "OrderCalculator",
-      "projectPath": "/Users/sbolum/projects/OrderCalculator/OrderCalculator/OrderCalculator.csproj",
-      "packagesPath": "/Users/sbolum/.nuget/packages/",
-      "outputPath": "/Users/sbolum/projects/OrderCalculator/OrderCalculator/obj/",
+      "projectPath": "C:\\Users\\ademg\\interview-project\\OrderCalculator\\OrderCalculator.csproj",
+      "packagesPath": "C:\\Users\\ademg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ademg\\interview-project\\OrderCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/sbolum/.config/NuGet/NuGet.Config"
+        "C:\\Users\\ademg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/sbolum/projects/OrderCalculator/Core/Core.csproj": {
-              "projectPath": "/Users/sbolum/projects/OrderCalculator/Core/Core.csproj"
+            "C:\\Users\\ademg\\interview-project\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\ademg\\interview-project\\Core\\Core.csproj"
             }
           }
         }
@@ -761,7 +763,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
